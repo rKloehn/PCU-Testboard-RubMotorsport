@@ -1,0 +1,358 @@
+Pinlist
+
+Exported from PCU_Testboard.brd at 15.01.2020 11:04
+
+EAGLE Version 9.5.1 Copyright (c) 1988-2019 Autodesk, Inc.
+
+Part     Pad      Net
+
+C1       +        +12V
+         -        GND
+
+C2       1        +12V
+         2        GND
+
+C3       1        +5V
+         2        GND
+
+C4       +        +3V3
+         -        GND
+
+C5       1        +5V
+         2        GND
+
+C6       1        +3V3
+         2        GND
+
+C7       1        +3V3
+         2        GND
+
+C8       1        +3V3
+         2        GND
+
+C9       1        +3V3
+         2        GND
+
+C10      1        +3V3
+         2        GND
+
+C11      1        N$2
+         2        GND
+
+C12      +        +3V3
+         -        GND
+
+C13      1        +3V3
+         2        GND
+
+C14      1        N$1
+         2        GND
+
+C15      +        +3V3
+         -        GND
+
+C16      1        N$5
+         2        GND
+
+C17      1        N$6
+         2        GND
+
+C18      1        GND
+         2        N$8
+
+C19      1        GPIO_IN1
+         2        GND
+
+C20      1        GPIO_IN2
+         2        GND
+
+C21      1        GPIO_IN3
+         2        GND
+
+C24      1        +5V
+         2        GND
+
+C25      1        SENSOR2_OUT
+         2        GND
+
+C26      1        SENSOR1_OUT
+         2        GND
+
+C59      +        +12V
+         -        GND
+
+C60      1        N$58
+         2        GND
+
+C61      +        +24V
+         -        GND
+
+C62      1        +12V
+         2        GND
+
+D1       A        GND
+         C        V_IN
+
+D2       A        GND
+         K        +12V
+
+D3       1        GND
+         2        +5V
+         3        SENSOR1_IN
+
+D4       1        GND
+         2        +5V
+         3        SENSOR2_IN
+
+D15      A        N$61
+         C        +24V
+
+DAC1     TP       DAC1
+
+GND      TP       GND
+
+GPIO_IN1 1        GND
+         2        GND
+         3        N$4
+         4        N$4
+
+GPIO_IN2 1        GND
+         2        GND
+         3        N$7
+         4        N$7
+
+GPIO_IN3 1        GND
+         2        GND
+         3        N$19
+         4        N$19
+
+H1      
+H2      
+H3      
+H4      
+IC1      1        +3V3
+         2                 *** unconnected ***
+         3                 *** unconnected ***
+         4                 *** unconnected ***
+         5        N$5
+         6        N$6
+         7        N$8
+         8                 *** unconnected ***
+         9                 *** unconnected ***
+         10                *** unconnected ***
+         11                *** unconnected ***
+         12       GND
+         13       +3V3
+         14                *** unconnected ***
+         15       ISTWERT
+         16       KUPPLUNGSPOTI
+         17       SENSOR1_OUT
+         18       GND
+         19       +3V3
+         20       DAC1
+         21       SENSOR2_OUT
+         22       ADC6
+         23       ADC7
+         24                *** unconnected ***
+         25                *** unconnected ***
+         26       GPIO_IN1
+         27       GPIO_IN2
+         28       GPIO_IN3
+         29                *** unconnected ***
+         30                *** unconnected ***
+         31       N$1
+         32       +3V3
+         33                *** unconnected ***
+         34                *** unconnected ***
+         35                *** unconnected ***
+         36                *** unconnected ***
+         37                *** unconnected ***
+         38                *** unconnected ***
+         39       GPIO_OUT1
+         40       GPIO_OUT2
+         41                *** unconnected ***
+         42                *** unconnected ***
+         43                *** unconnected ***
+         44                *** unconnected ***
+         45                *** unconnected ***
+         46       SYS_SWDIO
+         47       N$2
+         48       +3V3
+         49       SYS_SWCLK
+         50                *** unconnected ***
+         51                *** unconnected ***
+         52                *** unconnected ***
+         53                *** unconnected ***
+         54                *** unconnected ***
+         55                *** unconnected ***
+         56                *** unconnected ***
+         57                *** unconnected ***
+         58                *** unconnected ***
+         59                *** unconnected ***
+         60       GND
+         61                *** unconnected ***
+         62                *** unconnected ***
+         63       GND
+         64       +3V3
+
+L1       1        V_IN
+         2        +12V
+
+L2       1        N$59
+         2        N$61
+
+MAGVENT1 1        MAG_VENTIL1
+         2        GND
+
+MAGVENT2 1        MAG_VENTIL2
+         2        GND
+
+PROPVENT 1        +24V
+         2        ISTWERT
+         3        GND
+         4        20MA_CLUTCH
+
+PWSPLY   1        V_IN
+         2        GND
+
+Q1       1        N$6
+         2        N$5
+
+Q2       1        N$67
+         2        20MA_CLUTCH
+         3        N$65
+
+R1       1        +3V3
+         2        N$4
+
+R2       1        GPIO_IN1
+         2        N$4
+
+R3       1        +3V3
+         2        N$7
+
+R4       1        GPIO_IN2
+         2        N$7
+
+R5       1        +3V3
+         2        N$19
+
+R6       1        GPIO_IN3
+         2        N$19
+
+R7       1        GND
+         2        ISTWERT
+
+R9       1        GND
+         2        SENSOR1_IN
+
+R10      1        GND
+         2        KUPPLUNGSPOTI
+         3        +3V3
+
+R12      1        GND
+         2        SENSOR2_IN
+
+R13      1        N$15
+         2        SENSOR1_OUT
+
+R14      1        N$17
+         2        SENSOR2_OUT
+
+R15      1        SENSOR2_OUT
+         2        GND
+
+R16      1        GND
+         2        SENSOR1_OUT
+
+R62      1        +12V
+         2        N$59
+
+R63      1        N$59
+         2        N$60
+
+R64      1        GND
+         2        N$62
+
+R65      1        N$62
+         2        +24V
+
+R66      1        DAC1
+         2        N$63
+
+R67      1        N$70
+         2        N$68
+
+R68      1        N$70
+         2        N$69
+
+S1       1        GND
+         2        GND
+         3        N$8
+         4        N$8
+
+SEN1     TP       SENSOR1_OUT
+
+SEN2     TP       SENSOR2_OUT
+
+SENS1    1        SENSOR1_IN
+         2        +5V
+         3        GND
+
+SENS2    1        SENSOR2_IN
+         2        +5V
+         3        GND
+
+SWDIO_DEBUGGER 1        +3V3
+         2        SYS_SWCLK
+         3        GND
+         4        SYS_SWDIO
+         5        SYS_NRST
+
+U$1      1        MAG_VENTIL1
+         2        GND
+         3        GPIO_OUT1
+         4        +24V
+
+U$2      1        N$15
+         2        N$15
+         3        SENSOR1_IN
+         4        GND
+         5        SENSOR2_IN
+         6        N$17
+         7        N$17
+         8        +5V
+
+U$4      1        MAG_VENTIL2
+         2        GND
+         3        GPIO_OUT2
+         4        +24V
+
+U1       1        +12V
+         2        GND
+         3        +5V
+         4        GND
+
+U2       1        +5V
+         2        GND
+         3        +3V3
+         4        GND
+
+U11      1        N$61
+         2        GND
+         3        N$58
+         4        GND
+         5        N$62
+         6        +12V
+         7        N$59
+         8        N$60
+
+U12      1        N$68
+         2        N$63
+         3        N$70
+         4        20MA_CLUTCH
+         5        N$65
+         6        N$67
+         7        +12V
+         8        N$69
+
